@@ -1,4 +1,4 @@
-FROM ubuntu:latest 
+FROM ubuntu:14.04 
 MAINTAINER cameron Meindl <cmeindl@gmail.com>
 #install the Pre Reqs and Apache
 RUN apt-get update && apt-get -yq install php5 php5-dev php-pear php5-gd php5-mysql php5-curl mysql-client-5.5 libmysqlclient-dev \
